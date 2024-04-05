@@ -1,0 +1,9 @@
+[package]
+name = "actix-todo"
+version = "0.1.0"
+edition = "2021"
+description = "a simple todo app with actix"
+license = "GPL2"
+
+[dependencies]
+actix-web = "4"
