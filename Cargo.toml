@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 description = "a simple todo app with actix"
 license = "GPL2"
+repository = "https://github.com/t-webber/actix-todo"
+readme = "docs/README.md"
+keywords = ["actix", "web", "app", "todo"]
 
 [dependencies]
 actix-web = "4"
+serde = { version = "1", features = ["derive"] }
+chrono = "0"
